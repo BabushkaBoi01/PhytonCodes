@@ -119,3 +119,21 @@ elif percentage >= 0 and percentage <= 49:
     print(f"You got {percentage}% which is an F")
 else:
     print("Enter a  valid grade")
+    
+8...Fun Animal game
+exit=" "
+animal = " "
+while exit!= "yes" and exit !="exit":
+#while animal != "cow" and animal != "sheep" and animal != "cat":
+    animal = input("What animal do you want? ").lower()
+    if animal == "cow":
+        print("A cow goes mooo")
+    elif animal == "sheep":
+        print("A sheep goes bahhh")
+    elif animal == "cat":
+        print("A cat goes meowww")
+    elif animal == "lion":
+        print("A lion roars I think")
+    else:
+        print("oops..we don't have that, we are currently working on it")
+    exit = input("Do you want to exit? ")
