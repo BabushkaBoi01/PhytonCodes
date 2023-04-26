@@ -137,3 +137,16 @@ while exit!= "yes" and exit !="exit":
     else:
         print("oops..we don't have that, we are currently working on it")
     exit = input("Do you want to exit? ")
+    
+ 9...Lyrics guessing game
+print("Fill-in the blank lyrics!\n(type in the blank lyrics ,see if you're as cool as me")
+count = 0
+while True:
+    blank = input("I just Flipped a _____\n").lower()
+    count += 1
+    if blank == "switch":
+        break
+if count == 1:
+    print(f"It took you {count} try to guess")
+else:
+    print(f"It took you {count} tries to guess")
