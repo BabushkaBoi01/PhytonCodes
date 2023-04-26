@@ -175,3 +175,9 @@ for i in range(int(num)):
     z = i+1
     factorial *= z
 print(f"Factorial of {num} is {factorial}")
+orrrrrrrr
+num = input("Enter number : ")
+factorial = 1
+for i in range(1, int(num)+1):
+    factorial *= i
+print(f"Factorial of {num} is {factorial}")
