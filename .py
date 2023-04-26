@@ -150,3 +150,21 @@ if count == 1:
     print(f"It took you {count} try to guess")
 else:
     print(f"It took you {count} tries to guess")
+    
+10.Number guessing game
+print("Number Guessing game\nGuess a number between 1 to 100")
+num = 67#Change here to number of choice
+count = 0
+while True:
+    num2 = input("Enter your guess : ")
+    count += 1
+    if int(num2) < num and int(num2) >= 0:
+        print("Too low")
+    elif int(num2) > num:
+        print("Too high")
+    elif int(num2) == num:
+        break
+    else:
+        exit()
+print(f"You have guessed it in {count} tries")
+
