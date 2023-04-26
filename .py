@@ -168,3 +168,10 @@ while True:
         exit()
 print(f"You have guessed it in {count} tries")
 
+11.Factorial calculator
+num = input("Enter Number : ")
+factorial = 1
+for i in range(int(num)):
+    z = i+1
+    factorial *= z
+print(f"Factorial of {num} is {factorial}")
